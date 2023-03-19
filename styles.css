@@ -1,0 +1,116 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.container-fluid{
+    padding: 7% 10%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #0D4C92;
+}
+
+.colored-section{
+    background-color: #0D4C92;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+    color: #0D4C92;
+}
+
+/* Main Heading */
+.main-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #0D4C92;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Poppins';
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #0D4C92;
+}
+
+.navbar-brand:hover{
+    color: #0D4C92;
+}
+
+.nav-items{
+    padding: 0 10px;
+    color: #0D4C92;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: #0D4C92;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+
+/* Download Buttons */
+.btn-download{
+    margin-top: 1.5rem;
+    margin-right: 0.7rem;
+    border-color: #0D4C92;
+}
+
+.btn-dark{
+    background-color: #0D4C92;
+    color: #fff;
+}
+
+.btn-outline-dark{
+    color: #0D4C92;
+}
+
+
+/* Title Section */
+#title{
+    overflow: hidden;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 10% 7%;
+}
+
+.display-7{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: black;
+}
+
+.row{
+    margin-top: 2.5%;
+}
+
+
+/* Title Image */
+.title-image{
+    width: 120%;
+    position: relative;
+    right: 8rem;
+    margin-bottom: -230px;
+    background-image: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
